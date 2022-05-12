@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="IndexPage">
+  <head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" href="/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/favicon-144.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="header_in"><a class="header_logo" href="/index.html"><img class="header_logo__img header_logo__img--fill_1_state" src="./images/logo_light.svg" alt="rgbcode"><img class="header_logo__img header_logo__img--fill_2_state" src="./images/logo_dark.svg" alt="rgbcode"></a>
+        <button class="header_menu_trigger menuTrigger" type="button" aria-label="Show/hide menu"><span class="header_menu_trigger__title">menu</span>
+          <div class="header_menu_trigger__icon header_menu_trigger__icon--open_mod">
+            <svg class="icon icon_menu icon--size_mod">
+              <use xlink:href="images/sprite/sprite.svg#menu"></use>
+            </svg>
+          </div>
+          <div class="header_menu_trigger__icon header_menu_trigger__icon--close_mod">
+            <svg class="icon icon_close icon--size_mod">
+              <use xlink:href="images/sprite/sprite.svg#close"></use>
+            </svg>
+          </div>
+        </button>
+      </div>
+    </header>
+    <nav class="menu">
+      <div class="menu_in">
+        <ul class="menu_list">
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#">
+                <div class="menu_link__icon">
+                  <svg class="icon icon_bike icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#bike"></use>
+                  </svg>
+                </div>
+                <div class="menu_link__title">Showcases</div></a></div>
+          </li>
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#">
+                <div class="menu_link__icon menu_link__icon--offset_2_mod menu_link__icon--offset_3_mod">
+                  <svg class="icon icon_cup icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#cup"></use>
+                  </svg>
+                </div>
+                <div class="menu_link__title">Blog</div></a></div>
+          </li>
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#">
+                <div class="menu_link__icon menu_link__icon--offset_1_mod">
+                  <svg class="icon icon_faces icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#faces"></use>
+                  </svg>
+                </div>
+                <div class="menu_link__title">About us</div></a></div>
+          </li>
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#">
+                <div class="menu_link__icon menu_link__icon--offset_2_mod">
+                  <svg class="icon icon_list icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#list"></use>
+                  </svg>
+                </div>
+                <div class="menu_link__title">Services</div></a></div>
+          </li>
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#">
+                <div class="menu_link__icon menu_link__icon--offset_2_mod">
+                  <svg class="icon icon_at icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#at"></use>
+                  </svg>
+                </div>
+                <div class="menu_link__title">Contacts</div></a></div>
+          </li>
+          <li class="menu_item">
+            <div class="menu_item__in"><a class="menu_link" href="#">
+                <div class="menu_link__icon menu_link__icon--offset_1_mod">
+                  <svg class="icon icon_cloud icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#cloud"></use>
+                  </svg>
+                </div>
+                <div class="menu_link__title">Schedule a call</div></a></div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <div class="base">
+<section class="hero">
+  <div class="hero_video">
+    <video class="hero_video__in heroVideo hero_video__in--enable_mod" muted autoplay loop>
+      <source src="images/hero/4_lightning_rs.mp4" type="video/mp4">
+    </video>
+    <video class="hero_video__in heroVideo" muted autoplay loop>
+      <source src="images/hero/1_wand_rs.mp4" type="video/mp4">
+    </video>
+    <video class="hero_video__in heroVideo" muted autoplay loop>
+      <source src="images/hero/2_glasses_rs.mp4" type="video/mp4">
+    </video>
+    <video class="hero_video__in heroVideo" muted autoplay loop>
+      <source src="images/hero/3_tower_rs.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero_label">
+    <div class="hero_label__img"><img class="hero_label__img_in" src="images/hero/bellIcon.svg" alt="bellIcon"></div>
+    <div class="hero_label__text">Schedule a call with the CEO</div>
+  </div>
+  <div class="section__in">
+    <div class="hero_content">
+      <h1 class="hero__title">we make code</h1>
+      <div class="hero__word"><span class="hero__word_in hero__word_in--enable_mod" data-text="swift">swift</span><span class="hero__word_in" data-text="pretty">pretty</span><span class="hero__word_in" data-text="readable">readable</span><span class="hero__word_in" data-text="secure">secure</span>
+        <div class="hero__word_point"></div>
+      </div>
+      <div class="hero__descrip">
+        <p>We excel at giving our clients the most relaxing experience while working with an external development team</p>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="section testimonials_section">
+          <div class="section__in">
+            <h1 class="testimonials_section__title">trusted by</h1>
+          </div>
+          <div class="logos">
+            <div class="logo__slider swiper logoSlider">
+              <div class="logo__slider_in swiper-wrapper">
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/accessi_b.svg" alt="logo 0"><img class="logo_img logo_img--hover_state" src="images/logo_slider/accessi_h.svg" alt="logo hover 0"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/microsoft_b.svg" alt="logo 1"><img class="logo_img logo_img--hover_state" src="images/logo_slider/microsoft_h.svg" alt="logo hover 1"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/codeable_b.svg" alt="logo 2"><img class="logo_img logo_img--hover_state" src="images/logo_slider/codeable_h.svg" alt="logo hover 2"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/zivtech_b.svg" alt="logo 3"><img class="logo_img logo_img--hover_state" src="images/logo_slider/zivtech_h.svg" alt="logo hover 3"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/xl_media_b.svg" alt="logo 4"><img class="logo_img logo_img--hover_state" src="images/logo_slider/xl_media_h.svg" alt="logo hover 4"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/dorco_b.svg" alt="logo 5"><img class="logo_img logo_img--hover_state" src="images/logo_slider/dorco_h.svg" alt="logo hover 5"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/accessi_b.svg" alt="logo 6"><img class="logo_img logo_img--hover_state" src="images/logo_slider/accessi_h.svg" alt="logo hover 6"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/microsoft_b.svg" alt="logo 7"><img class="logo_img logo_img--hover_state" src="images/logo_slider/microsoft_h.svg" alt="logo hover 7"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/codeable_b.svg" alt="logo 8"><img class="logo_img logo_img--hover_state" src="images/logo_slider/codeable_h.svg" alt="logo hover 8"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/zivtech_b.svg" alt="logo 9"><img class="logo_img logo_img--hover_state" src="images/logo_slider/zivtech_h.svg" alt="logo hover 9"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/xl_media_b.svg" alt="logo 10"><img class="logo_img logo_img--hover_state" src="images/logo_slider/xl_media_h.svg" alt="logo hover 10"></div></a></div>
+                <div class="logo__slider_item swiper-slide"><a class="logo_item" href="#">
+                    <div class="logo_item__img"><img class="logo_img" src="images/logo_slider/dorco_b.svg" alt="logo 11"><img class="logo_img logo_img--hover_state" src="images/logo_slider/dorco_h.svg" alt="logo hover 11"></div></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials_section__row">
+            <div class="testimonials_section__col testimonials_section__col--client_testimoni_mod">
+              <div class="testimonial_slider swiper testimonialSlider">
+                <div class="testimonial_slider__controls">
+                  <div class="testimonial_slider__controls_in">
+                    <div class="slider_controls slider_controls--align_mod">
+                      <button class="slider_controls__button swiper-button-prev" type="button"><span class="slider_controls__icon">
+                          <svg class="icon icon_arrow_left icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow_left"></use>
+                          </svg></span>
+                        <div class="slider_controls__button_text">prev-slide</div>
+                      </button>
+                      <button class="slider_controls__button swiper-button-next" type="button"><span class="slider_controls__icon">
+                          <svg class="icon icon_arrow_right icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#arrow_right"></use>
+                          </svg></span>
+                        <div class="slider_controls__button_text">next-slide</div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial_slider__container swiper-wrapper">
+                  <div class="testimonial_slider__item swiper-slide">
+                    <div class="testimonial_client testimonialClient">
+                      <div class="testimonial_client__col testimonial_client__col--info_state">
+                        <div class="testimonial_client__block">
+                          <div class="testimonial_client__avatar"><img class="testimonial_client__avatar_img" src="images/testimonial_author.png" alt="Tomer Turpaz avatar"></div>
+                          <div class="testimonial_client__info">
+                            <div class="testimonial_client__name">Tomer Turpaz<a class="testimonial_client__linkedin" href="#"> <img class="testimonial_client__linkedin_icon" src="images/linkedin.svg" alt="linkedin"></a>
+                            </div>
+                            <div class="testimonial_client__position">VP Operations &amp; Client Service</div>
+                          </div>
+                        </div>
+                        <div class="testimonial_client__company_wrap"><a class="testimonial_client__company" href="#"> <img class="testimonial_client__company_img" src="images/microsoft.svg" alt="microsoft"></a></div>
+                      </div>
+                      <div class="testimonial_client__col testimonial_client__col--text_state">
+                        <div class="testimonial_client__text">
+                          <div class="testimonial_client__text_container">
+                            <div class="testimonial_client__text_container_in">
+                              <div class="testimonial_client__text_container_decor"></div>
+                              <div class="testimonial_client__text_in testimonialClientTextContainer"><p>As an agency, we get to work with many different clients<br>and many different vendors. It’s not easy finding a development team that fully understands and accepts the ongoing responsibility of an online project.</p><p>Michael, Kirill, and the rest of the RGBCODE team excel in this aspect (among others). They are available, professional, cordial, and get the job done. It’s true for day-to-day stuff, and doubly true for the emergencies that are bound to happen.</p><p>Michael, Kirill, and the rest of the RGBCODE team excel in this aspect (among others).</p>
+                                <div class="testimonial_client__text_button">
+                                  <button class="btn_primary testimonialClientReadMoreHideBtn" type="button">Hide</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="testimonial_client__footer">
+                              <button class="btn_primary testimonialClientReadMoreOpenBtn" type="button">Read more</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial_slider__item swiper-slide">
+                    <div class="testimonial_client testimonialClient">
+                      <div class="testimonial_client__col testimonial_client__col--info_state">
+                        <div class="testimonial_client__block">
+                          <div class="testimonial_client__avatar"><img class="testimonial_client__avatar_img" src="images/testimonial_author.png" alt="Paul Allen avatar"></div>
+                          <div class="testimonial_client__info">
+                            <div class="testimonial_client__name">Paul Allen<a class="testimonial_client__linkedin" href="#"> <img class="testimonial_client__linkedin_icon" src="images/linkedin.svg" alt="linkedin"></a>
+                            </div>
+                            <div class="testimonial_client__position">VP Operations &amp; Client Service</div>
+                          </div>
+                        </div>
+                        <div class="testimonial_client__company_wrap"><a class="testimonial_client__company" href="#"> <img class="testimonial_client__company_img" src="images/microsoft.svg" alt="microsoft"></a></div>
+                      </div>
+                      <div class="testimonial_client__col testimonial_client__col--text_state">
+                        <div class="testimonial_client__text">
+                          <div class="testimonial_client__text_container">
+                            <div class="testimonial_client__text_container_in">
+                              <div class="testimonial_client__text_container_decor"></div>
+                              <div class="testimonial_client__text_in testimonialClientTextContainer"><p>As an agency, we get to work with many different clients<br>and many different vendors. It’s not easy finding a development team that fully understands and accepts the ongoing responsibility of an online project.</p><p>Michael, Kirill, and the rest of the RGBCODE team excel in this aspect (among others). They are available, professional, cordial, and get the job done. It’s true for day-to-day stuff, and doubly true for the emergencies that are bound to happen.</p><p>Michael, Kirill, and the rest of the RGBCODE team excel in this aspect (among others).</p>
+                                <div class="testimonial_client__text_button">
+                                  <button class="btn_primary testimonialClientReadMoreHideBtn" type="button">Hide</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="testimonial_client__footer">
+                              <button class="btn_primary testimonialClientReadMoreOpenBtn" type="button">Read more</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial_slider__item swiper-slide">
+                    <div class="testimonial_client testimonialClient">
+                      <div class="testimonial_client__col testimonial_client__col--info_state">
+                        <div class="testimonial_client__block">
+                          <div class="testimonial_client__avatar"><img class="testimonial_client__avatar_img" src="images/testimonial_author.png" alt="Bill Gates avatar"></div>
+                          <div class="testimonial_client__info">
+                            <div class="testimonial_client__name">Bill Gates<a class="testimonial_client__linkedin" href="#"> <img class="testimonial_client__linkedin_icon" src="images/linkedin.svg" alt="linkedin"></a>
+                            </div>
+                            <div class="testimonial_client__position">VP Operations &amp; Client Service</div>
+                          </div>
+                        </div>
+                        <div class="testimonial_client__company_wrap"><a class="testimonial_client__company" href="#"> <img class="testimonial_client__company_img" src="images/microsoft.svg" alt="microsoft"></a></div>
+                      </div>
+                      <div class="testimonial_client__col testimonial_client__col--text_state">
+                        <div class="testimonial_client__text">
+                          <div class="testimonial_client__text_container">
+                            <div class="testimonial_client__text_container_in">
+                              <div class="testimonial_client__text_container_decor"></div>
+                              <div class="testimonial_client__text_in testimonialClientTextContainer"><p>As an agency, we get to work with many different clients<br>and many different vendors. It’s not easy finding a development team that fully understands and accepts the ongoing responsibility of an online project.</p>
+                                <div class="testimonial_client__text_button">
+                                  <button class="btn_primary testimonialClientReadMoreHideBtn" type="button">Hide</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial_slider__pagination">
+                <div class="testimonial_slider__pagination_count testimonial_slider__pagination_count--current">01</div>
+                <div class="testimonial_slider__pagination_dots"></div>
+                <div class="testimonial_slider__pagination_count testimonial_slider__pagination_count--total">01</div>
+              </div>
+            </div>
+            <div class="testimonials_section__col testimonials_section__col--reviewed_mod">
+              <div class="review">
+                <div class="review__head">
+                  <div class="review__logo_wrap">
+                    <div class="review__logo_title">REVIEWED ON</div>
+                    <div class="review__logo_block"><img class="review__logo_img" src="images/clutch.svg" alt="reviewed on clutch"></div>
+                  </div>
+                  <div class="review__arrow">
+                    <div class="review__arrow_icon">
+                      <svg class="icon icon_arrow icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__main">
+                  <div class="review__score">4.9</div>
+                  <div class="review__stars"><img class="review__stars_img" src="images/stars.svg" alt="stars"></div>
+                  <div class="review__info">customer rating</div>
+                </div>
+                <div class="review__verified">
+                  <div class="review__verified_icon">
+                    <svg class="icon icon_check icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#check"></use>
+                    </svg>
+                  </div>
+                  <div class="review__verified_title">Verified</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section our_products">
+          <div class="section_in"> 
+            <div class="our_products__head"> 
+              <h2 class="our_products_title">our products<span class="our_products_title__dott"></span></h2>
+              <div class="our_products__navigation">
+                <div class="our_products__arrow our_products__arrow--prev">
+                  <div class="our_products__icon">
+                    <svg class="icon icon_right_angle_arrow icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="our_products__arrow our_products__arrow--next">
+                  <div class="our_products__icon">
+                    <svg class="icon icon_right_angle_arrow icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="our_products__slider ourProductsSlider"> 
+              <article class="our_products_slide"><a class="our_products_slide_image" href="#">
+                  <div class="our_products_slide_image__wrap"><img class="our_products_slide_image__in" src="images/our_products/01.jpg" alt="Plugin We know API’s"></div>
+                  <div class="our_products_slide_image__hover">
+                    <div class="our_products_slide_image__text">Explore</div>
+                    <div class="our_products_slide_image_decor"><span class="our_products_slide_image_decor__in"></span></div>
+                  </div></a>
+                <div class="our_products_slide__wrap">
+                  <div class="our_products_slide__tag">development</div><a class="our_products_slide__link" href="#">
+                    <h2 class="our_products_slide__title">We know API’s</h2></a>
+                  <div class="our_products_slide__descr">1-2 lines of description for a plugin or product that help you understand the essence of the product <p>Version 1.5</p></div><a class="our_products_slide_link" href="#">Ajax Search on wordpress.org
+                    <div class="our_products_slide_link__icon">
+                      <svg class="icon icon_pixel_arrow icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#pixel_arrow"></use>
+                      </svg>
+                    </div></a>
+                </div>
+              </article>
+              <article class="our_products_slide"><a class="our_products_slide_image" href="#">
+                  <div class="our_products_slide_image__wrap"><img class="our_products_slide_image__in" src="images/our_products/02.jpg" alt="Plugin Woocomerce Ajax Search"></div>
+                  <div class="our_products_slide_image__hover">
+                    <div class="our_products_slide_image__text">Explore</div>
+                    <div class="our_products_slide_image_decor"><span class="our_products_slide_image_decor__in"></span></div>
+                  </div></a>
+                <div class="our_products_slide__wrap">
+                  <div class="our_products_slide__tag">plagin</div><a class="our_products_slide__link" href="#">
+                    <h2 class="our_products_slide__title">Woocomerce Ajax Search</h2></a>
+                  <div class="our_products_slide__descr">1-2 lines of description for a plugin or product that help you understand the essence of the product <p>Version 1.5</p></div><a class="our_products_slide_link" href="#">Ajax Search on wordpress.org
+                    <div class="our_products_slide_link__icon">
+                      <svg class="icon icon_pixel_arrow icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#pixel_arrow"></use>
+                      </svg>
+                    </div></a>
+                </div>
+              </article>
+              <article class="our_products_slide"><a class="our_products_slide_image" href="#">
+                  <div class="our_products_slide_image__wrap"><img class="our_products_slide_image__in" src="images/our_products/03.jpg" alt="Plugin Testkit"></div>
+                  <div class="our_products_slide_image__hover">
+                    <div class="our_products_slide_image__text">Explore</div>
+                    <div class="our_products_slide_image_decor"><span class="our_products_slide_image_decor__in"></span></div>
+                  </div></a>
+                <div class="our_products_slide__wrap">
+                  <div class="our_products_slide__tag">plagin</div><a class="our_products_slide__link" href="#">
+                    <h2 class="our_products_slide__title">Testkit</h2></a>
+                  <div class="our_products_slide__descr">1-2 lines of description for a plugin or product that help you understand the essence of the product <p>Version 1.5</p></div><a class="our_products_slide_link" href="#">Testkit on wordpress.org
+                    <div class="our_products_slide_link__icon">
+                      <svg class="icon icon_pixel_arrow icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#pixel_arrow"></use>
+                      </svg>
+                    </div></a>
+                </div>
+              </article>
+            </div>
+            <div class="our_products_bottom"> 
+              <div class="our_products_bottom__value ourProductsCurrent">01</div>
+              <div class="our_products_bottom__progress ourProductsProgress"></div>
+              <div class="our_products_bottom__value ourProductsTotal">04</div>
+            </div>
+          </div>
+        </section>
+<section class="section features_section">
+  <div class="section_in"> 
+    <h2 class="features_section_title">what we’re best at<span class="features_section_title__dott"></span></h2>
+    <ul class="features_section__list">
+      <li class="features_section_item">
+        <div class="features_section_item__wrap"><img class="features_section_item__img" src="images/features_section/01.svg" alt="icon clock"></div>
+        <div class="features_section_item__content features_section_item__content--thinner">
+          <h3 class="features_section_item__title">Strategy <br> & consultant</h3>
+          <div class="features_section_item__descr">We are helping you to decide on what technology to use, who to work with, and why.</div>
+        </div>
+      </li>
+      <li class="features_section_item">
+        <div class="features_section_item__wrap"><img class="features_section_item__img" src="images/features_section/02.svg" alt="icon development"></div>
+        <div class="features_section_item__content features_section_item__content--common">
+          <h3 class="features_section_item__title">Website development</h3>
+          <div class="features_section_item__descr">Our code effectively solves any problem, and its quality is confirmed by Wordpress partners.</div>
+        </div>
+      </li>
+      <li class="features_section_item">
+        <div class="features_section_item__wrap"><img class="features_section_item__img" src="images/features_section/03.svg" alt="icon application"></div>
+        <div class="features_section_item__content features_section_item__content--common">
+          <h3 class="features_section_item__title">Custom web applications</h3>
+          <div class="features_section_item__descr">We are not design agency, but we understand the principles of good design and apply it.</div>
+        </div>
+      </li>
+      <li class="features_section_item">
+        <div class="features_section_item__wrap"><img class="features_section_item__img" src="images/features_section/04.svg" alt="icon agile team"></div>
+        <div class="features_section_item__content features_section_item__content--common">
+          <h3 class="features_section_item__title">Agile development teams</h3>
+          <div class="features_section_item__descr">We relieve stress from work through quality management and streamlining of processes.</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="work_space">
+  <div class="section__in">
+    <div class="work_space__wrap">
+      <div class="work_space__content">
+        <h2 class="work_space__title">work space.</h2>
+        <div class="work_space__descrip">
+          <p>We are frontend developers, backend experts, and fullstack ninjas. We can’t be tame to a specific stack, but as we promise to deliver the most enjoyable experience, we must love what we use.</p>
+        </div>
+      </div>
+      <div class="work_space__img_w">
+        <div class="work_space__img"><img class="work_space__img_in" src="images/spaceIllustration.svg" alt="spaceIllustration"></div>
+      </div>
+      <div class="work_space__list">
+        <div class="work_space__item">
+          <div class="work_space_item">
+            <div class="work_space_item__title">WordPress & WooCommerce</div>
+            <div class="work_space_item__descrip">Our platform of choice</div>
+          </div>
+        </div>
+        <div class="work_space__item">
+          <div class="work_space_item">
+            <div class="work_space_item__title">React and Next.js</div>
+            <div class="work_space_item__descrip">Clean, modular and scalable</div>
+          </div>
+        </div>
+        <div class="work_space__item">
+          <div class="work_space_item">
+            <div class="work_space_item__title">PHP & Node.js</div>
+            <div class="work_space_item__descrip">The tools in our belt</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="blog_section"> 
+          <div class="section__in"> 
+            <div class="blog_section__title_wp">
+              <div class="blog_section__title">
+                <ul class="blog_section__decor_dots">
+                  <li class="blog_section__decor_dot">     </li>
+                  <li class="blog_section__decor_dot">     </li>
+                  <li class="blog_section__decor_dot">     </li>
+                </ul>blog<span class="blog_section__title_dot">.</span>
+              </div>
+              <div class="blog_section__subtitle">
+                 Directly from our team <br>leaderships</div>
+            </div>
+            <div class="hero_article"><a class="hero_article__image" href="#">
+                <picture class="hero_article_bg">
+                  <source srcset="images/big_article.jpg.webp" type="image/webp">
+                  <source srcset="images/big_article.jpg" type="image/jpg"><img class="hero_article_bg__img" src="images/big_article.jpg" alt="">
+                </picture></a>
+              <div class="hero_article__content"> 
+                <div class="hero_article__icon"> <img src="images/article_icon.png" alt="Popular article"></div>
+                <div class="hero_article__content_inner">
+                  <div class="hero_article__meta"> <a class="hero_article__tag hero_article__meta_item" href="#">lifehack, SA, +2</a>
+                    <div class="hero_article__meta_item">17 May ’20</div>
+                  </div><a class="hero_article__title" href="#">How to update to iOS 14 without getting your favorite phone suddenly exploded</a>
+                  <div class="hero_article__author"> <img class="hero_article__author_avatar" src="images/blog_avatar.jpg" alt="Kate Henderson"><span class="hero_article__author_name">Kate Henderson</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section latest_articles">
+          <div class="section_in"> 
+            <div class="latest_articles__head"> 
+              <h6 class="latest_articles__title">The latest articles</h6>
+              <div class="latest_articles__navigation">
+                <div class="latest_articles__arrow latest_articles__arrow--prev">
+                  <div class="latest_articles__icon">
+                    <svg class="icon icon_right_angle_arrow icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="latest_articles__arrow latest_articles__arrow--next">
+                  <div class="latest_articles__icon">
+                    <svg class="icon icon_right_angle_arrow icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="latest_articles__slider latestArticlesSlider">
+              <article class="latest_articles_slide"><a class="latest_articles_slide_image" href="#">
+                  <div class="latest_articles_slide_image__wrap"> <img class="latest_articles_slide_image__in" src="images/latest_articles/01.jpg" alt="Dog with laptop"></div></a>
+                <div class="latest_articles_slide__info"> <a class="latest_articles_slide__item latest_articles_slide__item--link" href="#">development<span class="latest_articles_slide__count"> +2</span></a>
+                  <div class="latest_articles_slide__item">12 July ’20</div>
+                </div><a class="latest_articles_slide__link" href="#">
+                  <h5 class="latest_articles_slide__title">Loop Through Posts By Specific Author ID</h5></a>
+              </article>
+              <article class="latest_articles_slide"><a class="latest_articles_slide_image" href="#">
+                  <div class="latest_articles_slide_image__wrap"> <img class="latest_articles_slide_image__in" src="images/latest_articles/02.jpg" alt="Girl with laptop"></div></a>
+                <div class="latest_articles_slide__info"> <a class="latest_articles_slide__item latest_articles_slide__item--link" href="#">development</a>
+                  <div class="latest_articles_slide__item">10 May ’20</div>
+                </div><a class="latest_articles_slide__link" href="#">
+                  <h5 class="latest_articles_slide__title">Loop Through Posts By Specific Author ID</h5></a>
+              </article>
+              <article class="latest_articles_slide"><a class="latest_articles_slide_image" href="#">
+                  <div class="latest_articles_slide_image__wrap"> <img class="latest_articles_slide_image__in" src="images/latest_articles/03.jpg" alt="Coffe and Laptop"></div></a>
+                <div class="latest_articles_slide__info"> <a class="latest_articles_slide__item latest_articles_slide__item--link" href="#">development</a>
+                  <div class="latest_articles_slide__item">7 May ’20</div>
+                </div><a class="latest_articles_slide__link" href="#">
+                  <h5 class="latest_articles_slide__title">Loop Through Posts By Specific Author ID</h5></a>
+              </article>
+              <article class="latest_articles_slide"><a class="latest_articles_slide_image" href="#">
+                  <div class="latest_articles_slide_image__wrap"> <img class="latest_articles_slide_image__in" src="images/latest_articles/04.jpg" alt="people talking in the office"></div></a>
+                <div class="latest_articles_slide__info"> <a class="latest_articles_slide__item latest_articles_slide__item--link" href="#">development<span class="latest_articles_slide__count"> +1</span></a>
+                  <div class="latest_articles_slide__item">3 May ’20</div>
+                </div><a class="latest_articles_slide__link" href="#">
+                  <h5 class="latest_articles_slide__title">Loop Through Posts By Specific Author ID</h5></a>
+              </article>
+            </div>
+            <div class="latest_articles_bottom">
+              <div class="latest_articles_bottom__value latestArticlesCurrent">01</div>
+              <div class="latest_articles_bottom__progress latestArticlesProgress"></div>
+              <div class="latest_articles_bottom__value latestArticlesTotal">04</div>
+            </div>
+          </div>
+        </section>
+        <section class="section what_to_read"> 
+          <div class="section__in">
+            <div class="what_to_read__title">what to read</div>
+            <div class="what_to_read__content"> 
+              <ul class="what_to_read__list">
+                <li class="what_to_read__item"><span class="what_to_read__item_title">WordPress development.</span></li>
+                <li class="what_to_read__item"><span class="what_to_read__item_title">Business strategy.</span></li>
+                <li class="what_to_read__item"><span class="what_to_read__item_title">Code snippets.</span></li>
+                <li class="what_to_read__item"> <span class="what_to_read__item_text">And more         </span></li>
+              </ul>
+              <div class="what_to_read__btn"><a class="btn_arrow btn_arrow--color_green_mod" href="#">
+                  <div>Our blog</div>
+                  <div class="btn_arrow__icon">
+                    <svg class="icon icon_right_angle_arrow icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                    </svg>
+                  </div></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section showcase">
+          <div class="showcase__section_title">showcases.</div>
+          <div class="showcase__slider showcaseSlider">
+            <div class="showcase__item">
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v1"></div>
+                <div class="showcase__content">
+                  <div class="showcase__tag">development</div><a class="showcase__title" href="#">Kaza—webstore automatisation</a>
+                  <div class="showcase__img showcase__img--mobile"><img class="showcase__img_in" src="images/showcases/1_mob.png" alt=""></div>
+                  <div class="showcase__text">Make a WooCommerce webstore fully autonomous by integrating seamlessly with SAP systems for a two-way synchronization without the involvement of the client’s webmasters.</div>
+                  <div class="showcase__btn_wrap">
+                    <button class="showcase__btn" type="button">
+                      <div>Read more</div>
+                      <div class="showcase__btn_icon">
+                        <svg class="icon icon_right_angle_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v2"></div>
+                <div class="showcase__img"><img class="showcase__img_in" src="images/showcases/1.png" alt=""></div>
+              </div>
+            </div>
+            <div class="showcase__item">
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v1"></div>
+                <div class="showcase__content">
+                  <div class="showcase__tag">development</div><a class="showcase__title" href="#">WhileFly website</a>
+                  <div class="showcase__img showcase__img--mobile"><img class="showcase__img_in" src="images/showcases/2_mob.png" alt=""></div>
+                  <div class="showcase__text">WhileFly’s technology enables low-cost airlines to serve their passengers with free onboard content and entertainment during the flight.</div>
+                  <div class="showcase__btn_wrap">
+                    <button class="showcase__btn" type="button">
+                      <div>Read more</div>
+                      <div class="showcase__btn_icon">
+                        <svg class="icon icon_right_angle_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v2"></div>
+                <div class="showcase__img"><img class="showcase__img_in" src="images/showcases/2.png" alt=""></div>
+              </div>
+            </div>
+            <div class="showcase__item">
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v1"></div>
+                <div class="showcase__content">
+                  <div class="showcase__tag">development</div><a class="showcase__title" href="#">Fuze</a>
+                  <div class="showcase__img showcase__img--mobile"><img class="showcase__img_in" src="images/showcases/3_mob.png" alt=""></div>
+                  <div class="showcase__text">WhileFly’s technology enables low-cost airlines to serve their passengers with free onboard content and entertainment during the flight.</div>
+                  <div class="showcase__btn_wrap">
+                    <button class="showcase__btn" type="button">
+                      <div>Read more</div>
+                      <div class="showcase__btn_icon">
+                        <svg class="icon icon_right_angle_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v2"></div>
+                <div class="showcase__img"><img class="showcase__img_in" src="images/showcases/3.png" alt=""></div>
+              </div>
+            </div>
+            <div class="showcase__item">
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v1"></div>
+                <div class="showcase__content">
+                  <div class="showcase__tag">development</div><a class="showcase__title" href="#">101 greatgoals</a>
+                  <div class="showcase__img showcase__img--mobile"><img class="showcase__img_in" src="images/showcases/4_mob.png" alt=""></div>
+                  <div class="showcase__text">WhileFly’s technology enables low-cost airlines to serve their passengers with free onboard content and entertainment during the flight.</div>
+                  <div class="showcase__btn_wrap">
+                    <button class="showcase__btn" type="button">
+                      <div>Read more</div>
+                      <div class="showcase__btn_icon">
+                        <svg class="icon icon_right_angle_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v2"></div>
+                <div class="showcase__img"><img class="showcase__img_in" src="images/showcases/4.png" alt=""></div>
+              </div>
+            </div>
+            <div class="showcase__item">
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v1"></div>
+                <div class="showcase__content">
+                  <div class="showcase__tag">development</div><a class="showcase__title" href="#">Dorco</a>
+                  <div class="showcase__img showcase__img--mobile"><img class="showcase__img_in" src="images/showcases/5_mob.png" alt=""></div>
+                  <div class="showcase__text">WhileFly’s technology enables low-cost airlines to serve their passengers with free onboard content and entertainment during the flight.</div>
+                  <div class="showcase__btn_wrap">
+                    <button class="showcase__btn" type="button">
+                      <div>Read more</div>
+                      <div class="showcase__btn_icon">
+                        <svg class="icon icon_right_angle_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v2"></div>
+                <div class="showcase__img"><img class="showcase__img_in" src="images/showcases/5.png" alt=""></div>
+              </div>
+            </div>
+            <div class="showcase__item">
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v1"></div>
+                <div class="showcase__content">
+                  <div class="showcase__tag">development</div><a class="showcase__title" href="#">Moonshot-marketing</a>
+                  <div class="showcase__img showcase__img--mobile"><img class="showcase__img_in" src="images/showcases/6_mob.png" alt=""></div>
+                  <div class="showcase__text">WhileFly’s technology enables low-cost airlines to serve their passengers with free onboard content and entertainment during the flight.</div>
+                  <div class="showcase__btn_wrap">
+                    <button class="showcase__btn" type="button">
+                      <div>Read more</div>
+                      <div class="showcase__btn_icon">
+                        <svg class="icon icon_right_angle_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v2"></div>
+                <div class="showcase__img"><img class="showcase__img_in" src="images/showcases/6.png" alt=""></div>
+              </div>
+            </div>
+            <div class="showcase__item">
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v1"></div>
+                <div class="showcase__content">
+                  <div class="showcase__tag">development</div><a class="showcase__title" href="#">Moonshot-marketing</a>
+                  <div class="showcase__img showcase__img--mobile"><img class="showcase__img_in" src="images/showcases/7_mob.png" alt=""></div>
+                  <div class="showcase__text">WhileFly’s technology enables low-cost airlines to serve their passengers with free onboard content and entertainment during the flight.</div>
+                  <div class="showcase__btn_wrap">
+                    <button class="showcase__btn" type="button">
+                      <div>Read more</div>
+                      <div class="showcase__btn_icon">
+                        <svg class="icon icon_right_angle_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v2"></div>
+                <div class="showcase__img"><img class="showcase__img_in" src="images/showcases/7.png" alt=""></div>
+              </div>
+            </div>
+            <div class="showcase__item">
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v1"></div>
+                <div class="showcase__content">
+                  <div class="showcase__tag">development</div><a class="showcase__title" href="#">Literally.media</a>
+                  <div class="showcase__img showcase__img--mobile"><img class="showcase__img_in" src="images/showcases/8_mob.png" alt=""></div>
+                  <div class="showcase__text">WhileFly’s technology enables low-cost airlines to serve their passengers with free onboard content and entertainment during the flight.</div>
+                  <div class="showcase__btn_wrap">
+                    <button class="showcase__btn" type="button">
+                      <div>Read more</div>
+                      <div class="showcase__btn_icon">
+                        <svg class="icon icon_right_angle_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v2"></div>
+                <div class="showcase__img"><img class="showcase__img_in" src="images/showcases/8.png" alt=""></div>
+              </div>
+            </div>
+            <div class="showcase__item">
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v1"></div>
+                <div class="showcase__content">
+                  <div class="showcase__tag">development</div><a class="showcase__title" href="#">Gosee</a>
+                  <div class="showcase__img showcase__img--mobile"><img class="showcase__img_in" src="images/showcases/9_mob.png" alt=""></div>
+                  <div class="showcase__text">WhileFly’s technology enables low-cost airlines to serve their passengers with free onboard content and entertainment during the flight.</div>
+                  <div class="showcase__btn_wrap">
+                    <button class="showcase__btn" type="button">
+                      <div>Read more</div>
+                      <div class="showcase__btn_icon">
+                        <svg class="icon icon_right_angle_arrow icon--size_mod">
+                          <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="showcase__col">
+                <div class="showcase__bg showcase__bg--v2"></div>
+                <div class="showcase__img"><img class="showcase__img_in" src="images/showcases/9.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase__controls">
+            <div class="showcase__progress">
+              <div class="showcase__progress_title showcaseCurrent">01</div>
+              <div class="showcase__dots"></div>
+              <div class="showcase__progress_title showcaseTotal">00</div>
+            </div>
+            <div class="showcase__arrows">
+              <div class="showcase__arrow showcase__arrow--prev">
+                <div class="showcase__arrow_icon">
+                  <svg class="icon icon_arrow_left icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#arrow_left"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="showcase__arrow showcase__arrow--next">
+                <div class="showcase__arrow_icon">
+                  <svg class="icon icon_arrow_right icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#arrow_right"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section contact_us">
+          <div class="contact_us__in">
+            <div class="contact_us__text">
+              <div class="contact_us__subtitle">contact us</div>
+              <div class="contact_us__title">
+                <p>interested</p>
+                <p>to start?</p>
+              </div>
+              <div class="contact_us__cta_icon_and_text">
+                <div class="contact_us__cta_icon">
+                  <svg class="icon icon_bell icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#bell"></use>
+                  </svg>
+                </div>
+                <div class="contact_us__cta_text">
+                  <p>Schedule a call with the CEO.</p>
+                  <p>It’s free and easy.</p>
+                </div>
+              </div>
+              <button class="contact_us__button" type="button">
+                <div>Request a call</div>
+                <div class="contact_us__button_icon">
+                  <svg class="icon icon_right_angle_arrow icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#right_angle_arrow"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div class="contact_us__img_wrap">
+              <picture class="contact_us__picture">
+                <source srcset="images/contact_us.jpg.webp" type="image/webp">
+                <source srcset="images/contact_us.jpg" type="image/jpg"><img class="contact_us__img" src="images/contact_us.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+        </section>
+        <section class="section cookie">
+          <div class="section_in cookie__in">
+            <div class="cookie__row">
+              <div class="cookie__title_w">
+                <h4 class="cookie__title">We use cookies on our website. By continuing to browse the site you are agreeing to accept our use of cookies.</h4>
+                <h4 class="cookie__title_mob">We use cookies on our website.</h4>
+                <div class="cookie__img"><img class="cookie__img_in" src="images/cookie.svg" alt="coockie image"></div>
+              </div>
+              <div class="cookie__btns_w">
+                <button class="cookie__btn_accept_mob">
+                  <svg class="icon icon_tickIcon icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#tickIcon"></use>
+                  </svg>
+                </button>
+                <button class="cookie__btn_accept">Accept</button>
+                <button class="cookie__btn_close cookieClose">
+                  <svg class="icon icon_cookie-close icon--size_mod">
+                    <use xlink:href="images/sprite/sprite.svg#cookie-close"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="footer__in">
+          <div class="footer__row_top">
+            <div class="footer__col">
+              <div class="footer__lists_w">
+                <ul class="footer__list">
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Projects</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">About</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Services</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Team</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Blog</a>
+                  </li>
+                </ul>
+                <ul class="footer__list">
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Terms of use</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Privacy Policy</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Contact us</a>
+                  </li>
+                </ul>
+                <ul class="footer__list">
+                  <li class="footer__list_item"><a class="footer__list_link" href="mailto:business@rgbcode.com">business@rgbcode.com</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Facebook</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Linkedin</a>
+                  </li>
+                  <li class="footer__list_item"><a class="footer__list_link" href="#">Twitter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__content_w">
+                <h4 class="footer__title">Let’s talk about your project</h4>
+                <div class="footer__btn_w">
+                  <button class="footer__btn"><span class="footer__btn_text">Request a call</span><span class="footer__btn_icon">
+                      <svg class="icon icon_arrow_right icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#arrow_right"></use>
+                      </svg></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__row_bottom">
+            <div class="footer__col">
+              <div class="footer__company_info_w">
+                <div class="footer__company_info">© 2020 RGBCODE, LTD</div>
+                <div class="footer__company_info">21 Hertzel, Tel Aviv, Israel</div>
+              </div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__content_w">
+                <div class="footer__build_on">built with<span class="footer__icon_w">
+                    <svg class="icon icon_heart icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#heart"></use>
+                    </svg></span>on wordpress</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <script defer src="js/app.js"></script></body>
+</html>

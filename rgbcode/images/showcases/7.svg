@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="786" height="786" viewBox="0 0 786 786">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6219" data-name="Rectangle 6219" width="786" height="786" transform="translate(1042 7590)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.496" y1="1.07" x2="0.434" y2="0.021" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1b1e58"/>
+      <stop offset="1" stop-color="#4549c3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.605" y1="1.063" x2="0.515" y2="-0.004" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#005298"/>
+      <stop offset="1" stop-color="#002179"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#4352ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_28" data-name="Mask Group 28" transform="translate(-1042 -7590)" clip-path="url(#clip-path)">
+    <g id="Group_6518" data-name="Group 6518">
+      <rect id="Rectangle_6211" data-name="Rectangle 6211" width="786" height="786" transform="translate(1042 7590)" fill="none"/>
+      <circle id="Ellipse_779" data-name="Ellipse 779" cx="288.114" cy="288.114" r="288.114" transform="translate(1350.455 7492) rotate(45)" opacity="0.311" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_780" data-name="Ellipse 780" cx="288.114" cy="288.114" r="288.114" transform="translate(1519.545 7661.092) rotate(45)" opacity="0.402" fill="url(#linear-gradient-2)"/>
+      <g id="Header" transform="translate(1264 7958.001)">
+        <g id="ui_logo" data-name="ui/logo" transform="translate(0 0)">
+          <g id="Artboard-1-copy-8" transform="translate(0 0)">
+            <path id="Path" d="M0,38.991l6.936-4.066c1.752,4.975,5.536,8.269,12.193,8.269,6.378,0,9.109-2.866,9.109-6.448,0-4.345-3.854-5.815-11.142-8.059C9.46,26.373,2.031,23.57,2.031,14.322,2.031,5.283,9.53.173,17.792.173a18.209,18.209,0,0,1,17.1,10.791L28.1,14.886c-1.753-3.924-4.836-6.867-10.3-6.867-4.694,0-7.7,2.382-7.7,6.089,0,3.783,2.733,5.394,9.879,7.639C28.1,24.339,36.3,26.86,36.3,36.6c0,8.967-7.146,14.433-17.372,14.433C9.249,51.042,2.593,46.278,0,38.991Z" transform="translate(0 0.332)" fill="#fff"/>
+            <path id="Path-2" data-name="Path" d="M37.423,30.055v19.48H29.364V30.055L12.267.484h9.179L33.433,22.207,45.341.484H54.52Z" transform="translate(23.536 0.929)" fill="#fff"/>
+            <path id="Path-3" data-name="Path" d="M65.746.484V49.535H59.438L36.315,16.252V49.535H28.255V.484h6.306L57.688,33.769V.484Z" transform="translate(54.21 0.929)" fill="#fff"/>
+            <path id="Path-4" data-name="Path" d="M73.948,41.827v7.7H44.173V.484H73.6v7.7H52.23V20.946H71.85v7.637H52.23V41.827Z" transform="translate(84.749 0.929)" fill="#fff"/>
+            <path id="Path-5" data-name="Path" d="M119.434,28.127c0,13.382-9.671,22.912-24.035,22.912-15.275,0-26.136-11.351-26.136-25.432A25.232,25.232,0,0,1,94.978.175,24.606,24.606,0,0,1,116.35,11.807L109.414,15.8c-2.522-4.556-7.988-7.778-14.435-7.778-10.37,0-17.657,7.639-17.657,17.657,0,9.881,7.148,17.518,18.148,17.518,8.9,0,14.364-4.624,15.836-11.21h-16.4V24.763h24.526Z" transform="translate(132.887 0.336)" fill="#fff"/>
+            <path id="Path-6" data-name="Path" d="M96.744.484V49.535H88.685V.484Z" transform="translate(170.149 0.929)" fill="#fff"/>
+            <path id="Shape" d="M156.845,19.876a6.043,6.043,0,0,0-4.859,2.328h0A3.872,3.872,0,0,1,145,20.885v.041a25.994,25.994,0,1,0-.057,10.438h0a3.869,3.869,0,0,1,6.931-1.8,6.118,6.118,0,1,0,4.97-9.686Zm-37.333,24.21A18.089,18.089,0,1,1,137.6,26a18.089,18.089,0,0,1-18.089,18.089Z" transform="translate(179.418)" fill="url(#linear-gradient-3)"/>
+            <path id="Shape-2" data-name="Shape" d="M73.968,31.667h-9.53V49.536H56.379V.484H76A15.7,15.7,0,0,1,91.759,16.245a15.47,15.47,0,0,1-9.741,14.224L93.16,49.528H84.331Zm-9.53-7.218H76a7.932,7.932,0,0,0,7.7-8.2,7.891,7.891,0,0,0-7.7-8.2H64.438Z" transform="translate(108.167 0.929)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
